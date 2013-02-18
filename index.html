@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form - form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="nico 0.2.2" />
+    <link type="image/x-icon" href="./static/css/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="./static/css/normalize.css" />
+    <link rel="stylesheet" href="./static/css/site.css" />
+    <link rel="stylesheet" href="./static/css/solarized.css" />
+    <script src="http://static.alipayobjects.com/seajs/1.2.1/sea.js"></script>
+    <script src="./static/js/arale-helper.js"></script>
+    <script src="./static/js/site.js"></script><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36247332-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = 'https://ssl.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script>
+  (function() {
+    var data;
+    seajs._package = data = {"name":"form","version":"1.0.0","root":"alice","description":"通用表单样式。","homepage":"http://aliceui.org/form","author":"","repository":{"type":"git","url":"https://github.com/aliceui/form"},"bugs":{"url":"https://github.com/aliceui/form/issues"},"license":"MIT","dependencies":{},"tests":["form"],"output":{"form.css":["form.css","input.css","label.css"]}}
+    data.dependencies && (delete data.dependencies['$'])
+    data.devDependencies && (delete data.devDependencies['$'])
+
+    seajs.config({ alias: data.dependencies })
+    seajs.config({ alias: data.devDependencies })
+    seajs.config({ alias: {} })
+  })();
+</script>
+    <!--[if lt IE 9]>
+    <script src="./static/js/html5shiv.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+    <div id="body-wrapper">
+      <aside id="sidebar-wrapper">
+        <h1><a href="./">Form</a><sup class="package-root"><a href="/">alice</a></sup></h1>
+        <p class="version">当前版本：<a href="http://aralejs.org/docs/online-status.html#alice-form" title="点击查看此组件发布情况">1.0.0</a></p>
+        <p class="description">通用表单样式。</p>
+        <a class="source" href="https://github.com/aliceui/form" target="_blank">View the Project</a>
+      </aside>
+      <div id="content-wrapper">
+        <div id="content">
+<article class="hentry">
+  <h1 class="entry-title">form</h1>
+  <div class="entry-content">
+    <p>通用表单样式。</p>
+
+<hr/>
+<h2 id="%E6%BC%94%E7%A4%BA">演示</h2>
+<blockquote>
+<p>演示中引用了 ui-button 和 ui-tiptext 。</p>
+</blockquote>
+<div class="nico-iframe">
+<iframe src="iframe-index-1.html" allowtransparency="true" 
+frameborder="0" scrolling="0" height="1000"></iframe></div><div class="highlight"><pre><code class="xml"><span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">media</span>=<span class="value">"screen"</span> <span class="attribute">href</span>=<span class="value">"http://modules.spmjs.org/alice/button/1.0.0/button.css"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">media</span>=<span class="value">"screen"</span> <span class="attribute">href</span>=<span class="value">"http://modules.spmjs.org/alice/tiptext/1.0.0/tiptext.css"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">media</span>=<span class="value">"screen"</span> <span class="attribute">href</span>=<span class="value">"../src/form.css"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">media</span>=<span class="value">"screen"</span> <span class="attribute">href</span>=<span class="value">"../src/input.css"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">link</span> <span class="attribute">type</span>=<span class="value">"text/css"</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">media</span>=<span class="value">"screen"</span> <span class="attribute">href</span>=<span class="value">"../src/label.css"</span>&gt;</span>
+
+<span class="tag">&lt;<span class="title">form</span> <span class="attribute">class</span>=<span class="value">"ui-form"</span> <span class="attribute">name</span>=<span class="value">""</span> <span class="attribute">method</span>=<span class="value">"post"</span> <span class="attribute">action</span>=<span class="value">"#"</span> <span class="attribute">id</span>=<span class="value">""</span>&gt;</span>
+    <span class="tag">&lt;<span class="title">fieldset</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">legend</span>&gt;</span>表单标题<span class="tag">&lt;/<span class="title">legend</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-text"</span>&gt;</span>一个个文字文字
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>添加备注<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>默认文案。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>表单项其他<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此在DOM上保存属性值，请使用data-xxx的形式。
+            <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">textarea</span> <span class="attribute">class</span>=<span class="value">"ui-textarea"</span>&gt;</span>一二三四五六七八九十<span class="tag">&lt;/<span class="title">textarea</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>出错文案，含英语字母或数字，如 a,b,c,A,B,C,1,2,3。
+            <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-success"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span> <span class="attribute">for</span>=<span class="value">""</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>表单项其他<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-success"</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x00EF;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>成功文案。
+            <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>下拉选择：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">select</span> <span class="attribute">id</span>=<span class="value">"province"</span> <span class="attribute">name</span>=<span class="value">"province"</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">""</span>&gt;</span>
+                请选择
+                <span class="tag">&lt;/<span class="title">option</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"北京"</span>&gt;</span>
+                北京
+                <span class="tag">&lt;/<span class="title">option</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"上海"</span>&gt;</span>
+                上海
+                <span class="tag">&lt;/<span class="title">option</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"天津"</span>&gt;</span>
+                天津
+                <span class="tag">&lt;/<span class="title">option</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">"浙江"</span>&gt;</span>
+                浙江
+                <span class="tag">&lt;/<span class="title">option</span>&gt;</span>
+            <span class="tag">&lt;/<span class="title">select</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>更多地区即将开通，敬请期待。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label ui-label-reset"</span>&gt;</span>不可用input：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input ui-input-disable"</span> <span class="attribute">type</span>=<span class="value">"text"</span> <span class="attribute">disabled</span>&gt;</span>       
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>目前不可用<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>验证码：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input ui-input-checkcode"</span> <span class="attribute">type</span>=<span class="value">"text"</span> <span class="attribute">data-explain</span>=<span class="value">"请输入右图中字符，不区分大小写。"</span> <span class="attribute">maxlength</span>=<span class="value">"4"</span> <span class="attribute">autocomplete</span>=<span class="value">"off"</span> <span class="attribute">value</span>=<span class="value">""</span> <span class="attribute">name</span>=<span class="value">"fourcode"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">img</span> <span class="attribute">class</span>=<span class="value">"ui-checkcode-imgcode-img"</span> <span class="attribute">align</span>=<span class="value">"absMiddle"</span> <span class="attribute">alt</span>=<span class="value">"请输入您看到的内容"</span> <span class="attribute">src</span>=<span class="value">"https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&amp;r=0.9321065918075809"</span>  <span class="attribute">title</span>=<span class="value">"点击刷新图片校验码"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>看不清，换一张<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>请输入右图中字符，不区分大小写。<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">id</span>=<span class="value">"test"</span> <span class="attribute">value</span>=<span class="value">""</span> <span class="attribute">type</span>=<span class="value">"checkbox"</span>&gt;</span> <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">"test"</span>&gt;</span>我已阅读并接受自主缴费服务协议<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"submit"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-morange"</span> <span class="attribute">value</span>=<span class="value">"确定"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">type</span>=<span class="value">"button"</span> <span class="attribute">class</span>=<span class="value">"ui-button ui-button-mwhite"</span> <span class="attribute">value</span>=<span class="value">"取消"</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>   
+    <span class="tag">&lt;/<span class="title">fieldset</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">form</span>&gt;</span> <span class="comment">&lt;!-- .ui-form --&gt;</span>
+</code></pre></div>
+  </div>
+</article>
+</div>
+      </div>
+      
+    </div>
+    <div id="footer-wrapper">
+      <footer>
+        <p class="powered">
+        <a href="http://aralejs.org">Arale</a> •
+        <a href="http://aliceui.org">Alice</a> •
+        <a href="https://github.com/spmjs/spm">spm</a> •
+        <a href="http://lab.lepture.com/nico/">nico</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
