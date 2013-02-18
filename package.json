@@ -1,0 +1,22 @@
+{
+    "name": "form",
+    "version": "1.0.0",
+    "root": "alice",
+    "description": "通用表单样式。",
+    "homepage": "http://aliceui.org/form",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "http://github/aliceui/form"
+    },
+    "bugs": {
+        "url": "http://github/aliceui/form/issues"
+    },
+    "license": "MIT",
+    "dependencies": {
+    },
+    "tests": ["form"],
+    "output": {
+        "form.css": ["form.css", "input.css", "label.css"]
+    }
+}

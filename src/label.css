@@ -1,0 +1,9 @@
+.ui-label {
+    float: left;
+    width: 170px;
+    margin-left: -170px;
+    padding-top: 3px;
+    *padding-top: 4px;
+    text-align: right;
+    font-size: 14px;
+}
