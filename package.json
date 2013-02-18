@@ -7,10 +7,10 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": "http://github/aliceui/form"
+        "url": "https://github.com/aliceui/form"
     },
     "bugs": {
-        "url": "http://github/aliceui/form/issues"
+        "url": "https://github.com/aliceui/form/issues"
     },
     "license": "MIT",
     "dependencies": {
