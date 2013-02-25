@@ -13,9 +13,9 @@
 ````iframe:1000
 <link type="text/css" rel="stylesheet" media="screen" href="http://modules.spmjs.org/alice/button/1.0.0/button.css">
 <link type="text/css" rel="stylesheet" media="screen" href="http://modules.spmjs.org/alice/tiptext/1.0.0/tiptext.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/form.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/input.css">
-<link type="text/css" rel="stylesheet" media="screen" href="../src/label.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
+<link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
 
 <form class="ui-form" name="" method="post" action="#" id="">
     <fieldset>
