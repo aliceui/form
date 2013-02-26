@@ -50,10 +50,9 @@
     seajs.config({ alias: {} })
 
     // for alice
-    data.dependencies.forEach(function(item) {
-        console.log(item);
-        seajs.use(item.key);
-    });
+    for(var dep in data.dependencies) {
+        seajs.use(dep);
+    }
   })();
 </script>
   </head>
