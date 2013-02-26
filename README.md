@@ -10,13 +10,13 @@
 
 > 演示中引用了 ui-button 和 ui-tiptext 。
 
-````iframe:1000
 <link type="text/css" rel="stylesheet" media="screen" href="http://modules.spmjs.org/alice/button/1.0.0/button.css">
 <link type="text/css" rel="stylesheet" media="screen" href="http://modules.spmjs.org/alice/tiptext/1.0.0/tiptext.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
 
+````html
 <form class="ui-form" name="" method="post" action="#" id="">
     <fieldset>
         <legend>表单标题</legend>
@@ -101,5 +101,5 @@
             <input type="button" class="ui-button ui-button-mwhite" value="取消">
         </div>   
     </fieldset>
-</form> <!-- .ui-form -->
+</form>
 ````
