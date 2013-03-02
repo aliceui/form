@@ -35,9 +35,7 @@
 
 .ui-form-text {
     display: inline-block;
-    margin-top: 4px;
-    *margin-top: 6px;
-    _margin-top: 4px;
+    margin-top: 8px;
     zoom: 1;
 }
 
@@ -154,9 +152,8 @@
 .ui-label {
     float: left;
     width: 170px;
-    margin-left: -170px;
-    padding-top: 3px;
-    *padding-top: 4px;
+    margin-left: -180px;
+    padding-top: 6px;
     text-align: right;
     font-size: 14px;
 }

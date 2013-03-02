@@ -33,9 +33,7 @@
 
 .ui-form-text {
     display: inline-block;
-    margin-top: 4px;
-    *margin-top: 6px;
-    _margin-top: 4px;
+    margin-top: 8px;
     zoom: 1;
 }
 

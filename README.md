@@ -22,18 +22,18 @@
         <legend>表单标题</legend>
          
         <div class="ui-form-item ui-form-item-error">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <p class="ui-form-text">一个个文字文字
         </div>
 
         <div class="ui-form-item">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">添加备注</a></span>
             <p class="ui-form-explain">默认文案。</p>
         </div>
 
         <div class="ui-form-item ui-form-item-error">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>此在DOM上保存属性值，请使用data-xxx的形式。
@@ -41,7 +41,7 @@
         </div>
               
         <div class="ui-form-item ui-form-item-success">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <textarea class="ui-textarea">一二三四五六七八九十</textarea>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x00EF;</i>成功文案。
@@ -49,7 +49,7 @@
         </div>
          
         <div class="ui-form-item">
-            <label for="" class="ui-label">下拉选择：</label>
+            <label for="" class="ui-label">下拉选择</label>
             <select id="province" name="province">
                 <option value="">
                 请选择
@@ -71,13 +71,13 @@
         </div>
           
         <div class="ui-form-item">
-            <label for="" class="ui-label ui-label-reset">不可用input：</label>
+            <label for="" class="ui-label ui-label-reset">不可用input</label>
             <input class="ui-input ui-input-disable" type="text" disabled>       
             <p class="ui-form-explain">目前不可用</p>
         </div>
          
         <div class="ui-form-item">
-            <label for="" class="ui-label">验证码：</label>
+            <label for="" class="ui-label">验证码</label>
             <input class="ui-input ui-input-checkcode" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
             <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&r=0.9321065918075809"  title="点击刷新图片校验码">
             <a href="#">看不清，换一张</a>
