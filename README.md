@@ -43,7 +43,7 @@
         <div class="ui-form-item ui-form-item-success">
             <label for="" class="ui-label">表单项文本</label>
             <textarea class="ui-textarea">一二三四五六七八九十</textarea>
-            <p class="ui-form-explain ui-tiptext ui-tiptext-error">
+            <p class="ui-form-explain ui-tiptext ui-tiptext-success">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x00EF;</i>成功文案。
             </p>
         </div>
