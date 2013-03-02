@@ -35,8 +35,12 @@
 
     // for alice
     for(var dep in data.dependencies) {
-        seajs.use(dep);
+        // 如果依赖的是样式模块
+        if (data.dependencies[dep].indexOf('.css') > 0) {
+            seajs.use(dep);
+        }
     }
+
   })();
 </script>
     <!--[if lt IE 9]>
@@ -50,7 +54,15 @@
         <h1><a href="./">Form</a><sup class="package-root"><a href="/">alice</a></sup></h1>
         <p class="version">当前版本：<a href="http://aralejs.org/docs/online-status.html#alice-form" title="点击查看此组件发布情况">1.0.0</a></p>
         <p class="description">通用表单样式。</p>
+        <p class="keywords" style="display: none;"></p>
         <a class="source" href="https://github.com/aliceui/form" target="_blank">View the Project</a>
+<ul id="module-output"> 
+</ul>
+<div id="output-card">
+    <h3>alice/form/1.0.0/<a target="_blank" id="output-file"></a></h3>
+    <p>这是模块的输出文件，请 require 或 seajs.use 以上 ID 来使用本文件，具体 API 请阅读文档。</p>
+</div>
+
       </aside>
       <div id="content-wrapper">
         <div id="content">
@@ -94,18 +106,10 @@
             </p>
         </div>
 
-        <div class="ui-form-item ui-form-item-error">
+        <div class="ui-form-item ui-form-item-success">
             <label for="" class="ui-label">表单项文本：</label>
             <textarea class="ui-textarea">一二三四五六七八九十</textarea>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
-                <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>出错文案，含英语字母或数字，如 a,b,c,A,B,C,1,2,3。
-            </p>
-        </div>
-
-        <div class="ui-form-item ui-form-item-success">
-            <label class="ui-label" for="">表单项文本：</label>
-            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
-            <p class="ui-form-explain ui-tiptext ui-tiptext-success">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x00EF;</i>成功文案。
             </p>
         </div>
@@ -180,18 +184,10 @@
             <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
-        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-success"</span>&gt;</span>
             <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">textarea</span> <span class="attribute">class</span>=<span class="value">"ui-textarea"</span>&gt;</span>一二三四五六七八九十<span class="tag">&lt;/<span class="title">textarea</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
-                <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>出错文案，含英语字母或数字，如 a,b,c,A,B,C,1,2,3。
-            <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
-        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
-
-        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-success"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span> <span class="attribute">for</span>=<span class="value">""</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>表单项其他<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-success"</span>&gt;</span>
                 <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x00EF;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>成功文案。
             <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
@@ -251,11 +247,11 @@
     </div>
     <div id="footer-wrapper">
       <footer>
-        <p class="powered">
-        <a href="http://aralejs.org">Arale</a> •
-        <a href="http://aliceui.org">Alice</a> •
-        <a href="https://github.com/spmjs/spm">spm</a> •
-        <a href="http://lab.lepture.com/nico/">nico</a>
+        <p class="powered"><a href="http://aralejs.org">Arale</a> •
+<a href="http://aliceui.org">Alice</a> •
+<a href="http://seajs.org">SeaJS</a> •
+<a href="https://github.com/spmjs/spm">spm</a> •
+<a href="http://lab.lepture.com/nico/">nico</a>
         </p>
       </footer>
     </div>
