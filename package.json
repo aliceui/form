@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "root": "alice",
     "description": "通用表单样式。",
+    "keywords": [
+        "表单"
+    ],
     "homepage": "http://aliceui.org/form",
     "author": "",
     "repository": {
