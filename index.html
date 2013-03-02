@@ -25,7 +25,7 @@
 <script>
   (function() {
     var data;
-    seajs._package = data = {"name":"form","version":"1.0.0","root":"alice","description":"通用表单样式。","homepage":"http://aliceui.org/form","author":"","repository":{"type":"git","url":"https://github.com/aliceui/form"},"bugs":{"url":"https://github.com/aliceui/form/issues"},"license":"MIT","dependencies":{},"tests":["form"],"output":{"form.css":["form.css","input.css","label.css"]}}
+    seajs._package = data = {"name":"form","version":"1.0.0","root":"alice","description":"通用表单样式。","keywords":["表单"],"homepage":"http://aliceui.org/form","author":"","repository":{"type":"git","url":"https://github.com/aliceui/form"},"bugs":{"url":"https://github.com/aliceui/form/issues"},"license":"MIT","dependencies":{},"tests":["form"],"output":{"form.css":["form.css","input.css","label.css"]}}
     data.dependencies && (delete data.dependencies['$'])
     data.devDependencies && (delete data.devDependencies['$'])
 
@@ -54,7 +54,7 @@
         <h1><a href="./">Form</a><sup class="package-root"><a href="/">alice</a></sup></h1>
         <p class="version">当前版本：<a href="http://aralejs.org/docs/online-status.html#alice-form" title="点击查看此组件发布情况">1.0.0</a></p>
         <p class="description">通用表单样式。</p>
-        <p class="keywords" style="display: none;"></p>
+        <p class="keywords" style="display: none;">表单</p>
         <a class="source" href="https://github.com/aliceui/form" target="_blank">View the Project</a>
 <ul id="module-output"> 
 </ul>
@@ -88,18 +88,18 @@
         <legend>表单标题</legend>
 
         <div class="ui-form-item ui-form-item-error">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <p class="ui-form-text">一个个文字文字
         </div>
 
         <div class="ui-form-item">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">添加备注</a></span>
             <p class="ui-form-explain">默认文案。</p>
         </div>
 
         <div class="ui-form-item ui-form-item-error">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>此在DOM上保存属性值，请使用data-xxx的形式。
@@ -107,7 +107,7 @@
         </div>
 
         <div class="ui-form-item ui-form-item-success">
-            <label for="" class="ui-label">表单项文本：</label>
+            <label for="" class="ui-label">表单项文本</label>
             <textarea class="ui-textarea">一二三四五六七八九十</textarea>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x00EF;</i>成功文案。
@@ -115,7 +115,7 @@
         </div>
 
         <div class="ui-form-item">
-            <label for="" class="ui-label">下拉选择：</label>
+            <label for="" class="ui-label">下拉选择</label>
             <select id="province" name="province">
                 <option value="">
                 请选择
@@ -137,13 +137,13 @@
         </div>
 
         <div class="ui-form-item">
-            <label for="" class="ui-label ui-label-reset">不可用input：</label>
+            <label for="" class="ui-label ui-label-reset">不可用input</label>
             <input class="ui-input ui-input-disable" type="text" disabled>       
             <p class="ui-form-explain">目前不可用</p>
         </div>
 
         <div class="ui-form-item">
-            <label for="" class="ui-label">验证码：</label>
+            <label for="" class="ui-label">验证码</label>
             <input class="ui-input ui-input-checkcode" type="text" data-explain="请输入右图中字符，不区分大小写。" maxlength="4" autocomplete="off" value="" name="fourcode">
             <img class="ui-checkcode-imgcode-img" align="absMiddle" alt="请输入您看到的内容" src="https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&r=0.9321065918075809"  title="点击刷新图片校验码">
             <a href="#">看不清，换一张</a>
@@ -166,18 +166,18 @@
         <span class="tag">&lt;<span class="title">legend</span>&gt;</span>表单标题<span class="tag">&lt;/<span class="title">legend</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-text"</span>&gt;</span>一个个文字文字
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>添加备注<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>默认文案。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>表单项其他<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
                 <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此在DOM上保存属性值，请使用data-xxx的形式。
@@ -185,7 +185,7 @@
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-success"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">textarea</span> <span class="attribute">class</span>=<span class="value">"ui-textarea"</span>&gt;</span>一二三四五六七八九十<span class="tag">&lt;/<span class="title">textarea</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
                 <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x00EF;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>成功文案。
@@ -193,7 +193,7 @@
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>下拉选择：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>下拉选择<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">select</span> <span class="attribute">id</span>=<span class="value">"province"</span> <span class="attribute">name</span>=<span class="value">"province"</span>&gt;</span>
                 <span class="tag">&lt;<span class="title">option</span> <span class="attribute">value</span>=<span class="value">""</span>&gt;</span>
                 请选择
@@ -215,13 +215,13 @@
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label ui-label-reset"</span>&gt;</span>不可用input：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label ui-label-reset"</span>&gt;</span>不可用input<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input ui-input-disable"</span> <span class="attribute">type</span>=<span class="value">"text"</span> <span class="attribute">disabled</span>&gt;</span>       
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>目前不可用<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>验证码：<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>验证码<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input ui-input-checkcode"</span> <span class="attribute">type</span>=<span class="value">"text"</span> <span class="attribute">data-explain</span>=<span class="value">"请输入右图中字符，不区分大小写。"</span> <span class="attribute">maxlength</span>=<span class="value">"4"</span> <span class="attribute">autocomplete</span>=<span class="value">"off"</span> <span class="attribute">value</span>=<span class="value">""</span> <span class="attribute">name</span>=<span class="value">"fourcode"</span>&gt;</span>
             <span class="tag">&lt;<span class="title">img</span> <span class="attribute">class</span>=<span class="value">"ui-checkcode-imgcode-img"</span> <span class="attribute">align</span>=<span class="value">"absMiddle"</span> <span class="attribute">alt</span>=<span class="value">"请输入您看到的内容"</span> <span class="attribute">src</span>=<span class="value">"https://omeo.alipay.com/service/checkcode?sessionID=82012ab6b1f4ed9e675fb9092a25cb3b&amp;r=0.9321065918075809"</span>  <span class="attribute">title</span>=<span class="value">"点击刷新图片校验码"</span>&gt;</span>
             <span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>看不清，换一张<span class="tag">&lt;/<span class="title">a</span>&gt;</span>
