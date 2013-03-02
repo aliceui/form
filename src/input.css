@@ -1,8 +1,8 @@
 .ui-input {
     width: 170px;
     padding: 7px 9px;
-    height: 12px;
-    line-height: 12px;
+    height: 18px;
+    line-height: 18px;
     border: 1px solid #ccc;
     border-top-color: #a6a6a6;
     color: #595959;
@@ -15,7 +15,7 @@
 
 .ui-input:focus, .ui-textarea:focus {
     border: 1px #07f solid;
-    outline: 1px #8cddff solid;
+    outline: 1px #8cddff solid; /* box-shadow: 0 0 3px #8cddff; */
 }
 
 .ui-textarea {

@@ -40,18 +40,10 @@
             </p>
         </div>
               
-        <div class="ui-form-item ui-form-item-error">
+        <div class="ui-form-item ui-form-item-success">
             <label for="" class="ui-label">表单项文本：</label>
             <textarea class="ui-textarea">一二三四五六七八九十</textarea>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
-                <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>出错文案，含英语字母或数字，如 a,b,c,A,B,C,1,2,3。
-            </p>
-        </div>
-         
-        <div class="ui-form-item ui-form-item-success">
-            <label class="ui-label" for="">表单项文本：</label>
-            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
-            <p class="ui-form-explain ui-tiptext ui-tiptext-success">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x00EF;</i>成功文案。
             </p>
         </div>
