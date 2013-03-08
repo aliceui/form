@@ -6,6 +6,7 @@
     border: 1px solid #ccc;
     border-top-color: #a6a6a6;
     color: #595959;
+    font-size: 12px;    
 }
 
 .ui-input:hover, .ui-textarea:hover {
@@ -27,6 +28,7 @@
     _padding: 1px 2px 0 5px;
     overflow: auto;
     font-family: Arial;
+    font-size: 12px;
 }
 
 .ui-input[disabled],
