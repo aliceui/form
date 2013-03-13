@@ -95,3 +95,6 @@
     </fieldset>
 </form>
 ````
+
+> input 和 textarea 的 :focus 、:hover 效果在 IE6 下无效，
+  可使用 `ui-input-focus` 和 `ui-input-hover` 类来修复。

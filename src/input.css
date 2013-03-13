@@ -8,12 +8,16 @@
     font-size: 12px;    
 }
 
-.ui-input:hover, .ui-textarea:hover {
+.ui-input:hover,
+.ui-textarea:hover,
+.ui-input-hover {
     border: 1px #a6a6a6 solid;
     border-top-color: #808080;
 }
 
-.ui-input:focus, .ui-textarea:focus {
+.ui-input:focus,
+.ui-textarea:focus,
+.ui-input-focus {
     border: 1px #07f solid;
     outline: 1px #8cddff solid; /* box-shadow: 0 0 3px #8cddff; */
 }
@@ -24,7 +28,6 @@
     line-height: 15px;
     border: 1px #9C9C9C solid;
     padding: 1px 3px 0 4px;
-    _padding: 1px 2px 0 5px;
     overflow: auto;
     font-family: Arial;
     font-size: 12px;

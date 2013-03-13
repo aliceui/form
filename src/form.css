@@ -27,14 +27,14 @@
 }
 
 .ui-form-other {
-    _display: inline-block;
     margin-left: 4px;
 }
 
 .ui-form-text {
     display: inline-block;
-    margin-top: 8px;
-    zoom: 1;
+    margin-top: 6px;
+    *display: inline;
+    *zoom: 1;
 }
 
 .ui-form-item:after {
@@ -47,8 +47,6 @@
 
 .ui-form-item {
     padding: 15px 5px 15px 170px;
-    *padding-bottom: 12px;
-    _padding-bottom: 13px;    
     zoom: 1;
 }
 
@@ -68,15 +66,8 @@
     *vertical-align: -5px;
 }
 
-.ui-form-item-focus .ui-textarea {
-    *padding: 1px 0 1px 2px;
-}
-
-.ui-form-item-focus .ui-form-explain,.ui-form-item-hover .ui-form-explain {
-    color: #333;
-}
-
-.ui-form-item-error .ui-input,.ui-form-item-error .ui-textarea {
+.ui-form-item-error .ui-input,
+.ui-form-item-error .ui-textarea {
     border: 1px #F00 solid;
     color: #F00;
 }
