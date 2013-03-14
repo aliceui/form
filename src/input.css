@@ -56,3 +56,20 @@
     margin: 0;
     padding: 2px 5px;
 }
+
+.ui-form-item-hover .ui-input,
+.ui-form-item-hover .ui-textarea {
+    border:1px #727272 solid;
+}
+
+.ui-form-item-focus .ui-input,
+.ui-form-item-focus .ui-textarea {
+    border: 1px #07f solid;
+    outline: 1px #8cddff solid;
+}
+
+.ui-form-item-focus .ui-form-explain,
+.ui-form-item-hover .ui-form-explain {
+    color:#333;
+}
+
