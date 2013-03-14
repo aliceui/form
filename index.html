@@ -95,7 +95,9 @@
         </div>
 
         <div class="ui-form-item">
-            <label for="" class="ui-label">表单项文本</label>
+            <label for="" class="ui-label">
+                <span class="ui-form-required">*</span>表单项文本
+            </label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">添加备注</a></span>
             <p class="ui-form-explain">默认文案。</p>
         </div>
@@ -105,6 +107,14 @@
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>此在DOM上保存属性值，请使用data-xxx的形式。
+            </p>
+        </div>
+
+        <div class="ui-form-item ui-form-item-error ui-form-item-focus">
+            <label for="" class="ui-label">表单项文本</label>
+            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
+            <p class="ui-form-explain ui-tiptext ui-tiptext-error">
+                <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>ui-form-item-focus 的效果。
             </p>
         </div>
 
@@ -173,7 +183,9 @@
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 
         <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item"</span>&gt;</span>
-            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-required"</span>&gt;</span>*<span class="tag">&lt;/<span class="title">span</span>&gt;</span>表单项文本
+            <span class="tag">&lt;/<span class="title">label</span>&gt;</span>
             <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>添加备注<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain"</span>&gt;</span>默认文案。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
@@ -183,6 +195,14 @@
             <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>表单项其他<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
             <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
                 <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>此在DOM上保存属性值，请使用data-xxx的形式。
+            <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+        <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+
+        <span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"ui-form-item ui-form-item-error ui-form-item-focus"</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">label</span> <span class="attribute">for</span>=<span class="value">""</span> <span class="attribute">class</span>=<span class="value">"ui-label"</span>&gt;</span>表单项文本<span class="tag">&lt;/<span class="title">label</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">input</span> <span class="attribute">class</span>=<span class="value">"ui-input"</span> <span class="attribute">type</span>=<span class="value">"text"</span>&gt;</span> <span class="tag">&lt;<span class="title">span</span> <span class="attribute">class</span>=<span class="value">"ui-form-other"</span>&gt;</span><span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"#"</span>&gt;</span>表单项其他<span class="tag">&lt;/<span class="title">a</span>&gt;</span><span class="tag">&lt;/<span class="title">span</span>&gt;</span>
+            <span class="tag">&lt;<span class="title">p</span> <span class="attribute">class</span>=<span class="value">"ui-form-explain ui-tiptext ui-tiptext-error"</span>&gt;</span>
+                <span class="tag">&lt;<span class="title">i</span> <span class="attribute">class</span>=<span class="value">"ui-tiptext-icon iconfont"</span> <span class="attribute">title</span>=<span class="value">"出错"</span>&gt;</span>&amp;#x006B;<span class="tag">&lt;/<span class="title">i</span>&gt;</span>ui-form-item-focus 的效果。
             <span class="tag">&lt;/<span class="title">p</span>&gt;</span>
         <span class="tag">&lt;/<span class="title">div</span>&gt;</span>
 

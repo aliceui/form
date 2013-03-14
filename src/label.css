@@ -6,3 +6,10 @@
     text-align: right;
     font-size: 14px;
 }
+
+.ui-form-required {
+    color: #FF0000;
+    font-family: SimSun;
+    font-size: 14px;
+    margin-right: 6px;
+}
