@@ -105,6 +105,7 @@
 .ui-input-focus {
     border: 1px #07f solid;
     outline: 1px #8cddff solid; /* box-shadow: 0 0 3px #8cddff; */
+    color: #595959;
 }
 
 .ui-textarea {
