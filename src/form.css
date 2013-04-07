@@ -80,3 +80,6 @@
 .ui-form-item-error .ui-form-explain {
     color: #FF5243;
 }
+
+@import url("./input.css");
+@import url("./label.css");
