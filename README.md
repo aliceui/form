@@ -38,7 +38,7 @@
             <label for="" class="ui-label">表单项文本</label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
-                <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>此在DOM上保存属性值，请使用data-xxx的形式。
+                <i class="ui-tiptext-icon iconfont" title="出错">&#xF045;</i>此在DOM上保存属性值，请使用data-xxx的形式。
             </p>
         </div>
 
@@ -46,7 +46,7 @@
             <label for="" class="ui-label">表单项文本</label>
             <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
-                <i class="ui-tiptext-icon iconfont" title="出错">&#x006B;</i>ui-form-item-focus 的效果。
+                <i class="ui-tiptext-icon iconfont" title="出错">&#xF045;</i>ui-form-item-focus 的效果。
             </p>
         </div>
               
@@ -54,7 +54,7 @@
             <label for="" class="ui-label">表单项文本</label>
             <textarea class="ui-textarea">一二三四五六七八九十</textarea>
             <p class="ui-form-explain ui-tiptext ui-tiptext-success">
-                <i class="ui-tiptext-icon iconfont" title="出错">&#x00EF;</i>成功文案。
+                <i class="ui-tiptext-icon iconfont" title="成功">&#xF049;</i>成功文案。
             </p>
         </div>
          
