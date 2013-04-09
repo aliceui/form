@@ -1,7 +1,7 @@
 {
     "name": "form",
     "version": "1.0.0",
-    "root": "alice",
+    "family": "alice",
     "description": "通用表单样式。",
     "keywords": [
         "表单"
@@ -16,10 +16,9 @@
         "url": "https://github.com/aliceui/form/issues"
     },
     "license": "MIT",
-    "dependencies": {
-    },
-    "tests": ["form"],
-    "output": {
-        "form.css": ["form.css", "input.css", "label.css"]
+    "spm": {
+        "alias": {
+        },
+        "output": ["form.css"]
     }
 }

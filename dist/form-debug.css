@@ -1,5 +1,4 @@
-
-/** alice/form/1.0.0/form.css **/
+/*! define alice/form/1.0.0/form-debug.css */
 /* alice.form 样式模块 */
 
 @charset "utf-8";
@@ -83,6 +82,7 @@
     color: #FF5243;
 }
 
+/*! block alice/form/1.0.0/input-debug.css */
 .ui-input {
     width: 170px;
     padding: 7px 9px;
@@ -158,8 +158,9 @@
 .ui-form-item-hover .ui-form-explain {
     color:#333;
 }
+/*! endblock alice/form/1.0.0/input-debug.css */
 
-
+/*! block alice/form/1.0.0/label-debug.css */
 .ui-label {
     float: left;
     width: 170px;
@@ -175,3 +176,4 @@
     font-size: 14px;
     margin-right: 6px;
 }
+/*! endblock alice/form/1.0.0/label-debug.css */
