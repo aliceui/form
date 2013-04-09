@@ -33,7 +33,7 @@
 
 .ui-form-text {
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 6px;
     *display: inline;
     *zoom: 1;
 }
@@ -165,7 +165,7 @@
     float: left;
     width: 170px;
     margin-left: -180px;
-    padding-top: 6px;
+    padding-top: 4px;
     text-align: right;
     font-size: 14px;
 }
