@@ -10,8 +10,8 @@
 
 > 演示中引用了 ui-button 和 ui-tiptext 。
 
-<link type="text/css" rel="stylesheet" media="screen" href="http://modules.spmjs.org/alice/button/1.0.0/button.css">
-<link type="text/css" rel="stylesheet" media="screen" href="http://modules.spmjs.org/alice/tiptext/1.0.0/tiptext.css">
+<link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/button/1.1.0/button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/tiptext/1.1.0/tiptext.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
