@@ -16,7 +16,7 @@
 <link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
 
-## 基本用法
+### 基本用法
 
 ````html
 <form class="ui-form" name="" method="post" action="#" id="">
@@ -115,7 +115,7 @@
   可使用 `ui-input-focus` 和 `ui-input-hover` 类来修复。
 
 
-## 大表单
+### 大表单
 
 ````html
 <form class="ui-form ui-form-large" name="" method="post" action="#" id="">
