@@ -1,7 +1,5 @@
 /* alice.form 样式模块 */
 
-@charset "utf-8";
-
 .ui-form {
     font-size: 12px;
     line-height: 1.5;
@@ -60,7 +58,6 @@
 }
 
 .ui-form-item .ui-input {
-    font-size: 12px;
     color: #595959;
     vertical-align: middle;
     *vertical-align: -5px;
@@ -79,6 +76,18 @@
 
 .ui-form-item-error .ui-form-explain {
     color: #FF5243;
+}
+
+.ui-form-large .ui-input {
+    width: 200px;    
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    padding: 11px 10px;
+}
+
+.ui-form-large .ui-label {
+    padding-top: 12px;    
 }
 
 @import url("./input.css");

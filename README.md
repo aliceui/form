@@ -10,11 +10,13 @@
 
 > 演示中引用了 ui-button 和 ui-tiptext 。
 
-<link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/button/1.1.0/button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/button/1.1.1/button.css">
 <link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/tiptext/1.1.0/tiptext.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
+
+## 基本用法
 
 ````html
 <form class="ui-form" name="" method="post" action="#" id="">
@@ -36,7 +38,7 @@
 
         <div class="ui-form-item ui-form-item-error">
             <label for="" class="ui-label">表单项文本</label>
-            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
+            <input class="ui-input ui-input-large" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
             <p class="ui-form-explain ui-tiptext ui-tiptext-error">
                 <i class="ui-tiptext-icon iconfont" title="出错">&#xF045;</i>
                 此在DOM上保存属性值，请使用data-xxx的形式。
@@ -111,3 +113,42 @@
 
 > input 和 textarea 的 :focus 、:hover 效果在 IE6 下无效，
   可使用 `ui-input-focus` 和 `ui-input-hover` 类来修复。
+
+
+## 大表单
+
+````html
+<form class="ui-form ui-form-large" name="" method="post" action="#" id="">
+    <fieldset>
+        <legend>表单标题</legend>
+         
+        <div class="ui-form-item">
+            <label for="" class="ui-label">
+                <span class="ui-form-required">*</span>表单项文本
+            </label>
+            <input class="ui-input" type="text"> <span class="ui-form-other"><a href="#">添加备注</a></span>
+            <p class="ui-form-explain">默认文案。</p>
+        </div>
+
+        <div class="ui-form-item ui-form-item-error">
+            <label for="" class="ui-label">表单项文本</label>
+            <input class="ui-input ui-input-large" type="text"> <span class="ui-form-other"><a href="#">表单项其他</a></span>
+            <p class="ui-form-explain ui-tiptext ui-tiptext-error">
+                <i class="ui-tiptext-icon iconfont" title="出错">&#xF045;</i>
+                此在DOM上保存属性值，请使用data-xxx的形式。
+            </p>
+        </div>
+
+        <div class="ui-form-item">
+            <input id="test" value="" type="checkbox"> <label for="test">我已阅读并接受自主缴费服务协议</label>
+        </div>
+ 
+        <div class="ui-form-item">
+            <input type="submit" class="ui-button ui-button-lorange" value="确定">
+        </div>   
+
+    </fieldset>
+</form>
+````
+
+和 arale/validator 配合使用：http://aralejs.org/validator/examples/aliceui.html
