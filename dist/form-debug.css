@@ -1,7 +1,5 @@
-/*! define alice/form/1.0.0/form-debug.css */
+/*! define alice/form/1.0.1/form-debug.css */
 /* alice.form 样式模块 */
-
-@charset "utf-8";
 
 .ui-form {
     font-size: 12px;
@@ -61,7 +59,6 @@
 }
 
 .ui-form-item .ui-input {
-    font-size: 12px;
     color: #595959;
     vertical-align: middle;
     *vertical-align: -5px;
@@ -82,7 +79,19 @@
     color: #FF5243;
 }
 
-/*! block alice/form/1.0.0/input-debug.css */
+.ui-form-large .ui-input {
+    width: 200px;    
+    font-size: 14px;
+    height: 18px;
+    line-height: 18px;
+    padding: 11px 10px;
+}
+
+.ui-form-large .ui-label {
+    padding-top: 12px;    
+}
+
+/*! block alice/form/1.0.1/input-debug.css */
 .ui-input {
     width: 170px;
     padding: 7px 9px;
@@ -104,7 +113,7 @@
 .ui-textarea:focus,
 .ui-input-focus {
     border: 1px #07f solid;
-    outline: 1px #8cddff solid; /* box-shadow: 0 0 3px #8cddff; */
+    box-shadow: 0 0 3px #8cddff;
     color: #595959;
 }
 
@@ -151,21 +160,21 @@
 .ui-form-item-focus .ui-input,
 .ui-form-item-focus .ui-textarea {
     border: 1px #07f solid;
-    outline: 1px #8cddff solid;
+    box-shadow: 0 0 3px #8cddff;
 }
 
 .ui-form-item-focus .ui-form-explain,
 .ui-form-item-hover .ui-form-explain {
     color:#333;
 }
-/*! endblock alice/form/1.0.0/input-debug.css */
+/*! endblock alice/form/1.0.1/input-debug.css */
 
-/*! block alice/form/1.0.0/label-debug.css */
+/*! block alice/form/1.0.1/label-debug.css */
 .ui-label {
     float: left;
     width: 170px;
     margin-left: -180px;
-    padding-top: 4px;
+    padding-top: 5px;
     text-align: right;
     font-size: 14px;
 }
@@ -176,4 +185,4 @@
     font-size: 14px;
     margin-right: 6px;
 }
-/*! endblock alice/form/1.0.0/label-debug.css */
+/*! endblock alice/form/1.0.1/label-debug.css */
