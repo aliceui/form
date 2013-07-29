@@ -185,4 +185,16 @@
     font-size: 14px;
     margin-right: 6px;
 }
+
+.ui-checkbox {
+    height: 14px;
+    margin: 0 3px 0 0;
+}
+
+.ui-checkbox-label {
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
 /*! endblock alice/form/1.0.1/label-debug.css */
