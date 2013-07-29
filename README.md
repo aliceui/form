@@ -2,13 +2,13 @@
 
 ---
 
-通用表单样式。
+通用表单样式。可基于此表单样式构建各类功能表单。
 
 ---
 
 ## 演示
 
-> 演示中引用了 ui-button 和 ui-tiptext 。
+> 演示中还引用了 [alice/button](http://aliceui.org/button) 和 [alice/tiptext](http://aliceui.org/tiptext) 。
 
 <link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/button/1.1.1/button.css">
 <link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/tiptext/1.1.0/tiptext.css">
@@ -100,7 +100,8 @@
         </div>
  
         <div class="ui-form-item">
-            <input id="test" value="" type="checkbox"> <label for="test">我已阅读并接受自主缴费服务协议</label>
+            <input class="ui-checkbox" id="test" value="" type="checkbox">
+            <label class="ui-checkbox-label" for="test">我已阅读并接受自主缴费服务协议</label>
         </div>
  
         <div class="ui-form-item">
@@ -140,7 +141,8 @@
         </div>
 
         <div class="ui-form-item">
-            <input id="test" value="" type="checkbox"> <label for="test">我已阅读并接受自主缴费服务协议</label>
+            <input class="ui-checkbox" id="test" value="" type="checkbox">
+            <label class="ui-checkbox-label" for="test">我已阅读并接受自主缴费服务协议</label>
         </div>
  
         <div class="ui-form-item">
