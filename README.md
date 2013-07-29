@@ -141,8 +141,8 @@
         </div>
 
         <div class="ui-form-item">
-            <input class="ui-checkbox" id="test" value="" type="checkbox">
-            <label class="ui-checkbox-label" for="test">我已阅读并接受自主缴费服务协议</label>
+            <input class="ui-checkbox" id="test2" value="" type="checkbox">
+            <label class="ui-checkbox-label" for="test2">我已阅读并接受自主缴费服务协议</label>
         </div>
  
         <div class="ui-form-item">
