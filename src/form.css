@@ -19,13 +19,13 @@
 
 .ui-form-explain {
     margin: 0;
-    padding: 5px 0 0;
+    padding: 8px 0 0;
     font-size: 12px;
     color: #B2B2B2;
 }
 
 .ui-form-other {
-    margin-left: 4px;
+    margin-left: 8px;
 }
 
 .ui-form-text {
@@ -79,7 +79,6 @@
 }
 
 .ui-form-large .ui-input {
-    width: 200px;    
     font-size: 14px;
     height: 18px;
     line-height: 18px;
@@ -87,7 +86,7 @@
 }
 
 .ui-form-large .ui-label {
-    padding-top: 12px;    
+    padding-top: 12px;
 }
 
 @import url("./input.css");

@@ -2,6 +2,10 @@
 
 ---
 
+## 1.0.2
+
+`tag:improved`  [#27](https://github.com/aliceui/aliceui.org/issues/27) 去掉 input 和 textarea 的默认宽度。
+`tag:improved`  微调了 input 的颜色和间距。
 
 ## 1.0.1
 
