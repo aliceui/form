@@ -6,6 +6,7 @@
 
 `tag:improved`  [#27](https://github.com/aliceui/aliceui.org/issues/27) 去掉 input 和 textarea 的默认宽度。
 `tag:improved`  微调了 input 的颜色和间距。
+`tag:change`  修改了 ui-checkbox 相关的 DOM 结构。
 
 ## 1.0.1
 

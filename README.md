@@ -100,14 +100,16 @@
         </div>
  
         <div class="ui-form-item">
-            <input class="ui-checkbox" id="test" value="" type="checkbox">
-            <label class="ui-checkbox-label" for="test">我已阅读并接受自主缴费服务协议</label>
+            <label for="test">
+                <input class="ui-checkbox" id="test" value="" type="checkbox">
+                我已阅读并接受自主缴费服务协议
+            </label>
         </div>
  
         <div class="ui-form-item">
             <input type="submit" class="ui-button ui-button-morange" value="确定">
             <input type="button" class="ui-button ui-button-mwhite" value="取消">
-        </div>   
+        </div>
     </fieldset>
 </form>
 ````
