@@ -146,13 +146,13 @@
             <input class="ui-checkbox" id="test2" value="" type="checkbox">
             <label class="ui-checkbox-label" for="test2">我已阅读并接受自主缴费服务协议</label>
         </div>
- 
+
         <div class="ui-form-item">
             <input type="submit" class="ui-button ui-button-lorange" value="确定">
-        </div>   
+        </div>
 
     </fieldset>
 </form>
 ````
 
-和 arale/validator 配合使用：http://aralejs.org/validator/examples/aliceui.html
+和 arale/validator 配合使用：http://aralejs.org/validator/examples/with-alice-form.html
