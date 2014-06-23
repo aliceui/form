@@ -18,5 +18,4 @@
 
 ## 1.0.0
 
-![](https://i.alipayobjects.com/e/201306/SWqnMDSL7.png)
-
+`tag:new` 第一个版本。

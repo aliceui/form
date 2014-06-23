@@ -1,24 +1,26 @@
 {
-    "name": "form",
-    "version": "1.0.2",
-    "family": "alice",
-    "description": "通用表单样式。",
-    "keywords": [
-        "表单"
-    ],
-    "homepage": "http://aliceui.org/form",
-    "author": "",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aliceui/form"
-    },
-    "bugs": {
-        "url": "https://github.com/aliceui/form/issues"
-    },
-    "license": "MIT",
-    "spm": {
-        "alias": {
-        },
-        "output": ["form.css"]
+  "name": "alice-form",
+  "version": "1.1.0",
+  "description": "通用表单样式。",
+  "keywords": [
+    "表单"
+  ],
+  "homepage": "http://aliceui.org/form",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliceui/form"
+  },
+  "bugs": {
+    "url": "https://github.com/aliceui/form/issues"
+  },
+  "license": "MIT",
+  "spm": {
+    "main": "src/form.css",
+    "dependencies": {},
+    "devDependencies": {
+      "alice-button": "1.3.0",
+      "alice-tiptext": "1.3.0"
     }
+  }
 }

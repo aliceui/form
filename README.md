@@ -2,6 +2,8 @@
 
 ---
 
+[![spm package](http://spmjs.io/badge/alice-form)](http://spmjs.io/package/alice-form)
+
 通用表单样式。可基于此表单样式构建各类功能表单。
 
 ---
@@ -10,8 +12,26 @@
 
 > 演示中还引用了 [alice/button](http://aliceui.org/button) 和 [alice/tiptext](http://aliceui.org/tiptext) 。
 
-<link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/button/1.1.1/button.css">
-<link type="text/css" rel="stylesheet" media="screen" href="http://assets.spmjs.org/alice/tiptext/1.1.0/tiptext.css">
+<style>
+@font-face {
+    font-family: "rei";
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140606"); /* IE9 */
+    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140606#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://i.alipayobjects.com/common/fonts/rei.woff?20140606") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.ttf?20140606")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("https://i.alipayobjects.com/common/fonts/rei.svg?20140606#rei") format("svg"); /* iOS 4.1- */
+}
+.iconfont {
+    font-family:"rei";
+    font-style: normal;
+    font-weight: normal;
+    cursor: default;
+    -webkit-font-smoothing: antialiased;
+}
+</style>
+
+<link type="text/css" rel="stylesheet" media="screen" href="sea-modules/alice-button/1.3.0/button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="sea-modules/alice-tiptext/1.3.0/src/tiptext.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
@@ -22,7 +42,7 @@
 <form class="ui-form" name="" method="post" action="#" id="">
     <fieldset>
         <legend>表单标题</legend>
-         
+
         <div class="ui-form-item ui-form-item-error">
             <label for="" class="ui-label">表单项文本</label>
             <p class="ui-form-text">一个个文字文字
