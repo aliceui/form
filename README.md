@@ -13,9 +13,9 @@
 > 演示中还引用了 [alice-button](http://aliceui.org/button)、 [alice-tiptext](http://aliceui.org/tiptext) 和 [alice-iconfont](http://aliceui.org/iconfont)。
 
 `````html
-<link type="text/css" rel="stylesheet" media="screen" href="/alice-button/1.3.0/button.css">
-<link type="text/css" rel="stylesheet" media="screen" href="/alice-tiptext/1.3.0/src/tiptext.css">
-<link type="text/css" rel="stylesheet" media="screen" href="/alice-iconfont/1.1.0/index.css">
+<link type="text/css" rel="stylesheet" media="screen" href="./alice-button/1.3.0/button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="./alice-tiptext/1.3.0/src/tiptext.css">
+<link type="text/css" rel="stylesheet" media="screen" href="./alice-iconfont/1.1.0/index.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
 `````
 
