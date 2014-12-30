@@ -10,31 +10,14 @@
 
 ## 演示
 
-> 演示中还引用了 [alice/button](http://aliceui.org/button) 和 [alice/tiptext](http://aliceui.org/tiptext) 。
+> 演示中还引用了 [alice-button](http://aliceui.org/button)、 [alice-tiptext](http://aliceui.org/tiptext) 和 [alice-iconfont](http://aliceui.org/iconfont)。
 
 `````html
-<style>
-@font-face {
-    font-family: "rei";
-    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140606"); /* IE9 */
-    src: url("https://i.alipayobjects.com/common/fonts/rei.eot?20140606#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("https://i.alipayobjects.com/common/fonts/rei.woff?20140606") format("woff"), /* chrome 6+、firefox 3.6+、Safari5.1+、Opera 11+ */
-    url("https://i.alipayobjects.com/common/fonts/rei.ttf?20140606")  format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
-    url("https://i.alipayobjects.com/common/fonts/rei.svg?20140606#rei") format("svg"); /* iOS 4.1- */
-}
-.iconfont {
-    font-family:"rei";
-    font-style: normal;
-    font-weight: normal;
-    cursor: default;
-    -webkit-font-smoothing: antialiased;
-}
-</style>
-`````
-
 <link type="text/css" rel="stylesheet" media="screen" href="/alice-button/1.3.0/button.css">
 <link type="text/css" rel="stylesheet" media="screen" href="/alice-tiptext/1.3.0/src/tiptext.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/alice-iconfont/1.1.0/index.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
+`````
 
 ### 基本用法
 

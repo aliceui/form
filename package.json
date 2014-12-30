@@ -20,7 +20,8 @@
     "dependencies": {},
     "devDependencies": {
       "alice-button": "1.3.0",
-      "alice-tiptext": "1.3.0"
+      "alice-tiptext": "1.3.0",
+      "alice-iconfont": "1.1.0"
     }
   }
 }
