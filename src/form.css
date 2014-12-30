@@ -1,5 +1,8 @@
 /* alice.form 样式模块 */
 
+@import url("./input.css");
+@import url("./label.css");
+
 .ui-form {
     font-size: 12px;
     line-height: 1.5;
@@ -88,6 +91,3 @@
 .ui-form-large .ui-label {
     padding-top: 12px;
 }
-
-@import url("./input.css");
-@import url("./label.css");

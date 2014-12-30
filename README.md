@@ -12,6 +12,7 @@
 
 > 演示中还引用了 [alice/button](http://aliceui.org/button) 和 [alice/tiptext](http://aliceui.org/tiptext) 。
 
+`````html
 <style>
 @font-face {
     font-family: "rei";
@@ -29,12 +30,11 @@
     -webkit-font-smoothing: antialiased;
 }
 </style>
+`````
 
-<link type="text/css" rel="stylesheet" media="screen" href="sea-modules/alice-button/1.3.0/button.css">
-<link type="text/css" rel="stylesheet" media="screen" href="sea-modules/alice-tiptext/1.3.0/src/tiptext.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/alice-button/1.3.0/button.css">
+<link type="text/css" rel="stylesheet" media="screen" href="/alice-tiptext/1.3.0/src/tiptext.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/form.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/input.css">
-<link type="text/css" rel="stylesheet" media="screen" href="src/label.css">
 
 ### 基本用法
 
